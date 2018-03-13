@@ -2,10 +2,10 @@
 #include<conio.h>
 void main()
 {
-    int num;
+    int number;
     clrscr();
     printf("Enter the number");
-    scanf("%d",&num);
-    printf("Corresponding character of %d is:%c",num,64+num);
+    scanf("%d",&number);
+    printf("Corresponding character of %d is:%c",number,64+number);
     getch();
 }
